@@ -1,0 +1,75 @@
+html{
+  height:100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: repeating-linear-gradient(125deg, #0f563e, #0f563e 11%, #1c3a2b 10%,#1c3a2b 20%);
+  background-attachment: fixed;
+}
+
+h1{
+  color:#0f563e;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+h2{
+  color:white;
+}
+.frame {
+    height: 300px;      /* equals max image height */
+    width: 300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:hsla(0,0%,0%,.5);
+}
+.frame img {
+    max-width: 300px;
+}
+.inline{display:inline;}
+.searchbox{
+  margin-right: 5%;
+}
+.newRecipe{
+  margin: 2em;
+}
+.newRecipe .left{
+  margin: 2em;
+  width:30%;
+  display:inline-block;
+  color:white;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.newRecipe .right{
+  margin: 2em;
+  width:20%;
+  display:inline-block;
+}
+.newRecipe span{
+  display:block;
+  margin:1em;
+}
+.newRecipe label{
+  width:100px;
+  display:inline-block;
+}
+
+.testing{
+  width:300px;
+  height:100px;
+  background-color:red;
+  color:white;
+}
+.NewRecipeForm {
+  border-radius: 20px;
+  border: 2px solid hsla(210,50%,100%,.2);
+  background-color:hsla(210,50%,50%,.8);
+  margin:1em;
+  padding:1em;
+}
+a{
+  text-decoration: underline;
+  color:white;
+}
